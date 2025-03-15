@@ -1,5 +1,5 @@
 import React from "react";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, Navigate } from "react-router-dom";
 import HomePage from "./components/HomePage";
 import Friends from "./components/Friends";
 import Profile from "./components/Profile";
@@ -13,10 +13,11 @@ import NGOPage from "./components/NGOPage";
 import NavigationTabs from "./components/NavigationTabs";
 
 const router = createBrowserRouter([
+  { path: "/", element: <Navigate to="/signup" replace /> }, // Redirect root to signup
   { path: "/signin", element: <SignIn /> },
   { path: "/signup", element: <Signup /> },
   {
-    path: "/",
+    path: "/home",
     element: <Layout />,
     children: [
       { index: true, element: <HomePage /> },

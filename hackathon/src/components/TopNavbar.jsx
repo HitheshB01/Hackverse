@@ -28,7 +28,7 @@ const TopNavbar = () => {
         </NavLink>
 
         {/* Profile Icon */}
-        <NavLink to="/profile" className="p-1 rounded-full hover:bg-gray-100 transition">
+        <NavLink to="profile" className="p-1 rounded-full hover:bg-gray-100 transition">
           <User size={24} className="text-gray-600" />
         </NavLink>
       </div>

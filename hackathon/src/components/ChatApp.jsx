@@ -7,14 +7,14 @@ const ChatApp = () => {
   
   // Sample data
   const chats = [
-    { id: 1, name: 'Sebastian Rudiger', message: '✓ Perfect! Will check it 🔥', time: '09:34 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
-    { id: 2, name: 'Caroline Varsaha', message: 'Thanks, Jimmy! Talk later', time: '08:12 PM', unread: true, count: 2, online: true, avatar: "https://randomuser.me/api/portraits/women/44.jpg" },
-    { id: 3, name: 'Darshan Patelchi', message: 'Sound good for me too!', time: '02:29 PM', unread: true, count: 3, online: true, avatar: "https://randomuser.me/api/portraits/men/22.jpg" },
-    { id: 4, name: 'Mohammed Arnold', message: '✓ No rush, mate! Just let ...', time: '01:08 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/91.jpg" },
-    { id: 5, name: 'Tamara Schipchinskaya', message: '✓ Okay. I\'ll tell him about it', time: '11:15 AM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/women/60.jpg" },
-    { id: 6, name: 'Ariana Amberline', message: 'Good nite, Honey! ❤️', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/women/33.jpg" },
-    { id: 7, name: 'Sebastian Rudiger', message: '✓ Perfect! Will check it 🔥', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
-  ];
+    { id: 1, name: 'Ram Charan', message: 'You are the best yoga teacher in the world!', time: '09:34 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
+    { id: 2, name: 'Shakuntala Devi', message: 'I love your yoga classes!', time: '08:12 PM', unread: true, count: 2, online: true, avatar: "https://randomuser.me/api/portraits/women/44.jpg" },
+    { id: 3, name: 'Sri Aurobindo', message: 'Your classes are soothing and beautiful.', time: '02:29 PM', unread: true, count: 3, online: true, avatar: "https://randomuser.me/api/portraits/men/22.jpg" },
+    { id: 4, name: 'Gautam Buddha', message: 'Your yoga is a reminder of the true essence of human existence.', time: '01:08 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/91.jpg" },
+    { id: 5, name: 'Ram Krishna', message: 'Your yoga is a way of life.', time: '11:15 AM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/women/60.jpg" },
+    { id: 6, name: 'Mahavira', message: 'Your yoga is a source of strength and peace.', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/women/33.jpg" },
+    { id: 7, name: 'Ram Charan', message: 'You are a true master of yoga.', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
+];
 
   // Initialize chat messages for each chat
   React.useEffect(() => {

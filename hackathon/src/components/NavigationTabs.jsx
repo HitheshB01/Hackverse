@@ -7,7 +7,7 @@ const NavigationTabs = () => {
       {/* Tab Buttons */}
       <div className="flex gap-4">
         <NavLink
-          to="/navigate/chat"
+          to="chat"
           className={({ isActive }) =>
             `px-6 py-3 rounded-lg text-lg font-medium transition ${
               isActive ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
@@ -18,7 +18,7 @@ const NavigationTabs = () => {
         </NavLink>
 
         <NavLink
-          to="/navigate/ngopage"
+          to="ngopage"
           className={({ isActive }) =>
             `px-6 py-3 rounded-lg text-lg font-medium transition ${
               isActive ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"

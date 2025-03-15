@@ -7,7 +7,7 @@ const BottomNavbar = () => {
       <div className="flex justify-around items-center p-3">
         {/* Home Tab */}
         <NavLink
-          to="/"
+          to="/home"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
               isActive ? "text-blue-600 scale-110" : "text-gray-700"
@@ -20,7 +20,7 @@ const BottomNavbar = () => {
 
         {/* Friends Tab */}
         <NavLink
-          to="/friends"
+          to="friends"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
               isActive ? "text-blue-600 scale-110" : "text-gray-700"
@@ -39,7 +39,7 @@ const BottomNavbar = () => {
           <Mic size={28} />
         </NavLink> */}
         <NavLink
-  to="/emergency"
+  to="emergency"
   className="flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full shadow-xl -mt-10 hover:bg-blue-600 transition-all border-4 border-white"
 >
   <AlertCircle size={28} />
@@ -49,7 +49,7 @@ const BottomNavbar = () => {
 
         {/* Events Tab */}
         <NavLink
-          to="/events"
+          to="events"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
               isActive ? "text-blue-600 scale-110" : "text-gray-700"
@@ -62,7 +62,7 @@ const BottomNavbar = () => {
 
         {/* Chat Tab */}
         <NavLink
-          to="/navigate"
+          to="navigate"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
               isActive ? "text-blue-600 scale-110" : "text-gray-700"

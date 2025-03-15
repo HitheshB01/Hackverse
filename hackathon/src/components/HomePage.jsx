@@ -121,9 +121,9 @@ export default function HomePage() {
   };
 
   return (
-    <div className="bg-[#F9F7F7] min-h-screen pb-20 pt-0">
+    <div className="bg-[#f5eac4] min-h-screen pb-20 pt-0">
       {/* 📸 Stories Section */}
-      <div className="mt-16 px-4 flex space-x-3 overflow-x-auto scrollbar-hide">
+      <div className="mt-5 px-4 pt-10 flex space-x-3 overflow-x-auto scrollbar-hide">
     {/* Add Story Button */}
     <label className="w-20 h-20 flex flex-col items-center justify-center bg-[#DBE2EF] rounded-lg shadow-md cursor-pointer hover:bg-[#3F72AF] transition-all">
       <input type="file" accept="image/*" onChange={handleStoryUpload} className="hidden" />
@@ -145,7 +145,7 @@ export default function HomePage() {
 
     {/* Fullscreen Story Popup */}
     {selectedStory && (
-      <div className="fixed inset-0 flex items-center justify-center bg-[#c6cbcf4a] backdrop-blur-lg z-50">
+      <div className="fixed inset-0 flex items-center justify-center bg-[#c6cbcfc7] backdrop-blur-lg z-50">
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}

@@ -1,6 +1,9 @@
 import { useState } from "react";
-import { Camera, Save, X } from "lucide-react";
+import { Camera, Save, X,LogOut } from "lucide-react";
 import pic from "../assets/p1.jpeg";
+import { NavLink,useNavigate  } from "react-router-dom";
+import { signOut } from "firebase/auth";
+import { auth } from "./firebase";
 
 export default function Profile() {
   const [profile, setProfile] = useState({
@@ -61,7 +64,13 @@ export default function Profile() {
   const removeInterest = (interest) => {
     setProfile({ ...profile, interests: profile.interests.filter((i) => i !== interest) });
   };
+  const navigate = useNavigate();
 
+
+  const handleLogout = async () => {
+    await signOut(auth);
+    navigate("/signin");
+  };
   return (
     <div className="bg-gray-100 min-h-screen flex flex-col items-center pt-16 px-4">
       {/* Profile Picture */}
@@ -143,6 +152,22 @@ export default function Profile() {
           <Save size={20} className="mr-2" />
           Save Changes
         </button>
+
+         {/* Logout Button
+         <button onClick={handleLogout} className="w-full bg-red-500 text-white py-2 mt-3 rounded-lg flex items-center justify-center hover:bg-red-600 transition-all">
+          <LogOut size={20} className="mr-2" />
+          Logout
+        </button> */}
+
+        
+<NavLink
+  to="/signin"
+  onClick={handleLogout}
+  className="w-full bg-red-500 text-white py-2 mt-3 rounded-lg flex items-center justify-center hover:bg-red-600 transition-all"
+>
+  <LogOut size={20} className="mr-2" />
+  Logout
+</NavLink>;
       </div>
     </div>
   );
