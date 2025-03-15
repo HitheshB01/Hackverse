@@ -30,7 +30,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#ff9a9e] to-[#fad0c4]">
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#b19352] to-[#f5df90]">
       <ToastContainer position="top-center" autoClose={3000} />
       <div className="w-full max-w-md bg-[#F5E1C8] p-8 rounded-lg shadow-lg">
         {/* Logo */}
