@@ -27,9 +27,9 @@ const Signin = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#ff9a9e] to-[#fad0c4]">
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-[#f5eac4] to-[#f5eac4]">
       <ToastContainer position="top-center" autoClose={3000} />
-      <div className="w-full max-w-md bg-[#F5E1C8] p-8 rounded-lg shadow-lg">
+      <div className="w-full max-w-md bg-[#eeeded] p-8 rounded-lg shadow-lg">
         {/* Logo */}
         <div className="flex flex-col items-center mb-6">
           <img src={logo} alt="ElderNest Logo" className="w-60 h-20" />

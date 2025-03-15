@@ -125,7 +125,7 @@ export default function HomePage() {
       {/* 📸 Stories Section */}
       <div className="mt-5 px-4 pt-10 flex space-x-3 overflow-x-auto scrollbar-hide">
     {/* Add Story Button */}
-    <label className="w-20 h-20 flex flex-col items-center justify-center bg-[#DBE2EF] rounded-lg shadow-md cursor-pointer hover:bg-[#3F72AF] transition-all">
+    <label className="w-20 h-20 flex flex-col items-center justify-center bg-[#DBE2EF] rounded-lg shadow-md cursor-pointer hover:bg-[#807861] transition-all">
       <input type="file" accept="image/*" onChange={handleStoryUpload} className="hidden" />
       <PlusCircle size={28} className="text-[#112D4E]" />
       <span className="text-xs text-[#112D4E]">Add Story</span>
@@ -194,7 +194,7 @@ export default function HomePage() {
             </label>
             <button
               onClick={handleAddPost}
-              className="bg-[#3F72AF] text-white px-4 py-2 rounded-lg hover:bg-[#112D4E] transition-all"
+              className="bg-[#ae792b] text-white px-4 py-2 rounded-lg hover:bg-[#112D4E] transition-all"
             >
               Post
             </button>

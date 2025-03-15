@@ -204,7 +204,7 @@ const EventsPage = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-4 mb-10">
+    <div className="min-h-screen bg-[#f5eac4]">
 
 
 <div className="w-full max-w-lg mx-auto mb-2 relative mt-5">

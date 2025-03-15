@@ -86,9 +86,9 @@ const ChatApp = () => {
   );
 
   const renderChatView = () => (
-    <div className="flex flex-col h-full bg-gray-100">
+    <div className="flex flex-col h-full bg-[#f5eac4]">
       {/* Chat header */}
-      <div className="flex items-center p-4 border-b bg-white">
+      <div className="flex items-center p-4 border-b bg-[#f5eac4]">
         <button 
           className="mr-4 text-gray-500" 
           onClick={() => setSelectedChat(null)}

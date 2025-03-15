@@ -3,7 +3,7 @@ import { NavLink, Outlet } from "react-router-dom";
 
 const NavigationTabs = () => {
   return (
-    <div className="flex flex-col items-center justify-start h-screen pt-16">
+    <div className="flex flex-col items-center justify-start h-screen bg-[#f5eac4] pt-16">
       {/* Tab Buttons */}
       <div className="flex gap-4">
         <NavLink

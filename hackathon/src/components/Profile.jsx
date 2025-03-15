@@ -167,7 +167,7 @@ export default function Profile() {
 >
   <LogOut size={20} className="mr-2" />
   Logout
-</NavLink>;
+</NavLink>
       </div>
     </div>
   );

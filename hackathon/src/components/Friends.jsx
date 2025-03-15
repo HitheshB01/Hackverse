@@ -46,7 +46,7 @@ export default function Friends() {
   };
 
   return (
-    <div className="bg-[#F9F7F7] min-h-screen flex flex-col items-center">
+    <div className="bg-[#f5eac4] min-h-screen flex flex-col items-center">
       {/* 🏠 Upper Navbar */}
       {/* <div className="w-full flex justify-between items-center px-4 py-3 bg-white shadow-md fixed top-0 z-50">
         <h1 className="text-xl font-bold text-[#112D4E]">👥 Find Friends</h1>
