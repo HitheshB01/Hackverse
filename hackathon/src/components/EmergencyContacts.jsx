@@ -13,7 +13,7 @@ const emergencyContacts = [
 
 // 🏥 Healthcare Contacts Data
 const healthcareContacts = [
-  { id: 1, name: "Dr. Sharma (Physiotherapist)", number: "9876543210", icon: "🦵", color: "bg-teal-600" },
+  { id: 1, name: "Dr. Sharma (Physio)", number: "9876543210", icon: "🦵", color: "bg-teal-600" },
   { id: 2, name: "Dr. Mehta (Dentist)", number: "9234567890", icon: "🦷", color: "bg-indigo-600" },
 ];
 
