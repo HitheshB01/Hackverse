@@ -218,7 +218,7 @@ const EventsPage = () => {
                 <p className="text-gray-300">🎂 Wish {person.name} a Happy {person.age}th Birthday! 🎊</p>
                 <button
                   onClick={() => handleMakeWish(person.name, person.age)}
-                  className="mt-3 bg-blue-500 text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600 transition"
+                  className="mt-3 bg-[#f0b45b] text-white px-4 py-2 rounded-md shadow-md hover:bg-blue-600 transition"
                 >
                   🎉 Make a Wish
                 </button>
@@ -234,13 +234,13 @@ const EventsPage = () => {
           <div className="space-y-4 w-full max-w-xs">
             <button 
               onClick={() => setActiveView('join')}
-              className="w-full bg-blue-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors"
+              className="w-full bg-[#ae792b] text-white py-3 px-4 rounded-lg font-medium hover:bg-blue-700 transition-colors"
             >
               Join Event
             </button>
             <button 
               onClick={() => setActiveView('create')}
-              className="w-full bg-green-600 text-white py-3 px-4 rounded-lg font-medium hover:bg-green-700 transition-colors"
+              className="w-full bg-green-700 text-white py-3 px-4 rounded-lg font-medium hover:bg-green-700 transition-colors"
             >
               Create Event
             </button>

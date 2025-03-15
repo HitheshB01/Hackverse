@@ -187,7 +187,7 @@ export default function HomePage() {
           />
           {newPost.image && <img src={newPost.image} alt="New Post" className="w-full mt-2 rounded" />}
           <div className="flex items-center justify-between mt-3">
-            <label className="flex items-center text-[#3F72AF] cursor-pointer hover:text-[#112D4E] transition-all">
+            <label className="flex items-center text-[#ae792b] cursor-pointer hover:text-[#112D4E] transition-all">
               <Image size={24} className="mr-1" />
               <span>Add Image</span>
               <input type="file" accept="image/*" onChange={handleImageUpload} className="hidden" />

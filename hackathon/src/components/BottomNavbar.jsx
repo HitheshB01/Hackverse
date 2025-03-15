@@ -10,7 +10,7 @@ const BottomNavbar = () => {
           to="/home"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
-              isActive ? "text-blue-600 scale-110" : "text-gray-700"
+              isActive ? "text-[#ae792b] scale-110" : "text-gray-700"
             }`
           }
         >
@@ -23,7 +23,7 @@ const BottomNavbar = () => {
           to="friends"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
-              isActive ? "text-blue-600 scale-110" : "text-gray-700"
+              isActive ? "text-[#ae792b] scale-110" : "text-gray-700"
             }`
           }
         >
@@ -40,7 +40,7 @@ const BottomNavbar = () => {
         </NavLink> */}
         <NavLink
   to="emergency"
-  className="flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full shadow-xl -mt-10 hover:bg-blue-600 transition-all border-4 border-white"
+  className="flex items-center justify-center w-16 h-16 bg-[#ba812c] text-white rounded-full shadow-xl -mt-10 hover:bg-blue-600 transition-all border-4 border-white"
 >
   <AlertCircle size={28} />
 </NavLink>
@@ -52,7 +52,7 @@ const BottomNavbar = () => {
           to="events"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
-              isActive ? "text-blue-600 scale-110" : "text-gray-700"
+              isActive ? "text-[#ae792b] scale-110" : "text-gray-700"
             }`
           }
         >
@@ -65,7 +65,7 @@ const BottomNavbar = () => {
           to="navigate"
           className={({ isActive }) =>
             `flex flex-col items-center p-3 rounded-lg bg-white/90 shadow-md transition-all duration-300 hover:shadow-lg ${
-              isActive ? "text-blue-600 scale-110" : "text-gray-700"
+              isActive ? "text-[#ae792b] scale-110" : "text-gray-700"
             }`
           }
         >

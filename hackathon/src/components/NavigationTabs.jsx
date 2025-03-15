@@ -10,7 +10,7 @@ const NavigationTabs = () => {
           to="chat"
           className={({ isActive }) =>
             `px-6 py-3 rounded-lg text-lg font-medium transition ${
-              isActive ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
+              isActive ? "bg-[#ae792b] text-white" : "bg-[#efc88e] text-gray-700"
             }`
           }
         >
@@ -21,7 +21,7 @@ const NavigationTabs = () => {
           to="ngopage"
           className={({ isActive }) =>
             `px-6 py-3 rounded-lg text-lg font-medium transition ${
-              isActive ? "bg-blue-600 text-white" : "bg-gray-200 text-gray-700"
+              isActive ? "bg-[#ae792b] text-white" : "bg-[#efc88e] text-gray-700"
             }`
           }
         >

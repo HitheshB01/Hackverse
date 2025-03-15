@@ -72,7 +72,7 @@ export default function Profile() {
     navigate("/signin");
   };
   return (
-    <div className="bg-gray-100 min-h-screen flex flex-col items-center pt-16 px-4">
+    <div className="bg-[#f5eac4] min-h-screen flex flex-col items-center pt-16 px-4">
       {/* Profile Picture */}
       <div className="relative">
         <img
