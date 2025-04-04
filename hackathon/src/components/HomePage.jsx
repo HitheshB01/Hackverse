@@ -576,7 +576,7 @@ export default function HomePage() {
               )}
               
               <div className="p-4">
-                <h2 className="text-xl font-bold text-[#112D4E]">{post.name}</h2>
+                {/* <h2 className="text-xl font-bold text-[#112D4E]">{post.name}</h2> */}
                 <p className="text-gray-600 text-lg mt-1">{post.text}</p>
                 
                 <div className="flex items-center justify-between mt-3">
@@ -611,4 +611,4 @@ export default function HomePage() {
       </div>
     </div>
   );
-}
+}  

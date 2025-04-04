@@ -23,9 +23,9 @@ const TopNavbar = () => {
         </div>
 
         {/* Mic Icon */}
-        <NavLink to="/voice" className="p-1 rounded-full hover:bg-gray-100 transition">
+        {/* <NavLink to="/voice" className="p-1 rounded-full hover:bg-gray-100 transition">
           <Mic size={24} className="text-gray-600" />
-        </NavLink>
+        </NavLink> */}
 
         {/* Profile Icon */}
         <NavLink to="profile" className="p-1 rounded-full hover:bg-gray-100 transition">

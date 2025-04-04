@@ -10,7 +10,7 @@ const ChatApp = () => {
     { id: 1, name: 'Ram Charan', message: 'You are the best yoga teacher in the world!', time: '09:34 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
     { id: 2, name: 'Shakuntala Devi', message: 'I love your yoga classes!', time: '08:12 PM', unread: true, count: 2, online: true, avatar: "https://randomuser.me/api/portraits/women/44.jpg" },
     { id: 3, name: 'Sri Aurobindo', message: 'Your classes are soothing and beautiful.', time: '02:29 PM', unread: true, count: 3, online: true, avatar: "https://randomuser.me/api/portraits/men/22.jpg" },
-    { id: 4, name: 'Gautam Buddha', message: 'Your yoga is a reminder of the true essence of human existence.', time: '01:08 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/91.jpg" },
+    { id: 4, name: 'Gautam Buddha', message: 'Your yoga is a reminder of your inner peace.', time: '01:08 PM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/men/91.jpg" },
     { id: 5, name: 'Ram Krishna', message: 'Your yoga is a way of life.', time: '11:15 AM', unread: false, online: true, avatar: "https://randomuser.me/api/portraits/women/60.jpg" },
     { id: 6, name: 'Mahavira', message: 'Your yoga is a source of strength and peace.', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/women/33.jpg" },
     { id: 7, name: 'Ram Charan', message: 'You are a true master of yoga.', time: 'Yesterday', unread: false, online: false, avatar: "https://randomuser.me/api/portraits/men/32.jpg" },
@@ -176,7 +176,7 @@ const ChatApp = () => {
   );
 
   return (
-    <div className="flex flex-col h-screen bg-white">
+    <div className="flex flex-col h-[80vh] bg-white">
       {/* If chat is selected, show chat view, otherwise show lists */}
       {selectedChat ? (
         renderChatView()
